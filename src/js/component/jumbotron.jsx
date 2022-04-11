@@ -2,16 +2,23 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-		<div className="row ms-4 p-0">
-			<div className="col-12 m-0 p-0">
-				<div className="container-fluid bg-light pb-5 p-0">
-					<h1 className="display-5 fw-bold">A Warm Welcome!</h1>
-					<p className="col-md-8 fs-4">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Sed sint aliquam mollitia ex! Consequuntur, molestias?
+		<div className="container bg-light">
+			<div className="ms-3 mb-3 pb-5">
+				<div>
+					<h1>A Warm Welcome!</h1>
+				</div>
+				<div>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Iure temporibus necessitatibus, similique itaque
+						ullam facere quos sed maiores labore deserunt quibusdam
+						distinctio sint architecto ipsa vitae praesentium
+						magnam, ab illo.
 					</p>
+				</div>
+				<div>
 					<button className="btn btn-primary btn-lg" type="button">
-						Call to action
+						Call to action!
 					</button>
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./navBar.jsx";
+import Navbar from "./navBar.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Card from "./card.jsx";
 import Footer from "./footer.jsx";
@@ -8,16 +8,19 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (
 		<>
-			<NavBar />
+			<Navbar />
+
 			<div className="container p-0">
 				<Jumbotron />
+
+				<div className="list-cards">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
-			<div className="container d-flex">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
+
 			<Footer />
 		</>
 	);

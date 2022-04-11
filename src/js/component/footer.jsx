@@ -1,14 +1,9 @@
 import React from "react";
 
-const Footer = () => {
-	return (
-		<nav class=" footer navbar navbar-light bg-secondary">
-			<div class="container-fluid justify-content-center">
-				<span class="navbar-brand mb-0 h1 text-white ">
-					Copyright @ Your Website 2022
-				</span>
-			</div>
-		</nav>
-	);
-};
+export const Footer = () => (
+	<footer className="footer bg-secondary py-3 text-center pt-4">
+		<p className="text-white">Copyright @ Your Website 2022</p>
+	</footer>
+);
+
 export default Footer;
